@@ -13,7 +13,6 @@ import SelectionSort from './algorithms/SelectionSort';
 import Play from '@material-ui/icons/PlayCircleOutlineRounded';
 import Forward from '@material-ui/icons/SkipNextRounded';
 import Backward from '@material-ui/icons/SkipPreviousRounded';
-import Pause from '@material-ui/icons/PauseCircleOutline';
 import RotateLeft from '@material-ui/icons/RotateLeft';
 
 // Styles
@@ -283,6 +282,7 @@ class App extends Component {
 						onChange={this.changeSpeed}
 					/>
 				</div>
+				<p className='footer'>- Made by Bhushan Goyanka</p>
 			</div>
 		);
 	}
